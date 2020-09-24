@@ -19,5 +19,6 @@
         <page name='4.3'/>
         <page name='4.4'/>
         <page name='4.1'/>
+        <page name='Largest Connection'/>
     </pages>
 </playground>
