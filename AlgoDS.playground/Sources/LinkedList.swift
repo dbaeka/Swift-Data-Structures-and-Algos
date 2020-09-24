@@ -245,3 +245,19 @@ extension SinglyLinkedList: CustomStringConvertible {
     }
 }
 
+
+
+extension DoubleLinkedList: CustomStringConvertible {
+    
+    public var description: String {
+        guard let head = self.head else { return "nil" }
+        var description = "\(head.value)"
+        var node = head.next
+        while node != nil {
+            description += " -> \(node!.value)"
+            node = node!.next
+        }
+        return description + " -> " + "nil"
+    }
+}
+

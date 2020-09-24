@@ -15,5 +15,9 @@
         <page name='3.2'/>
         <page name='3.5'/>
         <page name='3.6'/>
+        <page name='4.2'/>
+        <page name='4.3'/>
+        <page name='4.4'/>
+        <page name='4.1'/>
     </pages>
 </playground>
